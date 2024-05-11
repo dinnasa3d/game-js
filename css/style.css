@@ -1,0 +1,111 @@
+
+.body{
+   background-image: url(../images/wraper.png);
+   background-repeat: no-repeat;
+}
+
+.loading{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0 , 0 , 0.4);
+  z-index: 999;
+}
+
+.lds-ring,
+.lds-ring div {
+  box-sizing: border-box;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid currentColor;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: currentColor transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+a {
+     color: inherit;
+     text-decoration: none;
+     padding-top: 10px;
+ } 
+
+.badge{
+    background-color: rgb(62, 60, 60);
+}
+
+.bgnav{
+   background-color: rgb(58, 73, 123);
+   width: 75%;
+ 
+  }
+  .round{
+  border-radius: 25px;
+  }
+ 
+  .btton{
+    border: 1px solid yellow;
+    background-color: transparent;
+    color: white;
+    padding-inline: 15px;
+    padding-block: 5px;
+  }
+
+  .btton:hover{
+    background-color: yellow;
+    color: white;
+  }
+
+.group{
+  background-color: transparent   !important;
+}
+ .pgroup{
+    color: gray;
+ }
+
+ .btngroup{
+     background-color: rgb(64, 64, 116);
+ }
+  .fontsizep{
+    font-size: 15px;
+  }
+ 
+  .close{
+    color: gray;
+    /* position: fixed;
+    top: 8%;
+    right: 50px;   */
+    font-size: 20px; 
+
+  }
